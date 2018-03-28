@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<script src="clicker.js"></script> 
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1 id="cash">Current Balance: $0.00</h1>
+		<div class="grid">
+			<div class="plus_one">
+				<button type="button" onClick="taco.addOne()">+1</button>
+				<button type="button" onClick="taquero.addOne()">+1</button>
+				<button type="button" onClick="taco_stand.addOne()">+1</button>
+				<button type="button" onClick="taco_truck.addOne()">+1</button>
+				<button type="button" onClick="restaurant.addOne()">+1</button>
+			</div>
+			<div class="events">
+				<button type="button" onClick="taco.clicked()">Taco</button>
+				<button type="button" onClick="taquero.clicked()">Taquero</button>
+				<button type="button" onClick="taco_stand.clicked()">Taco Stand</button>
+				<button type="button" onClick="taco_truck.clicked()">Taco Truck</button>
+				<button type="button" onClick="restaurant.clicked()">Restaurant</button>
+			</div>
+			<div class="auto_click">
+				<button type="button" onClick="taco.auto()">Automate</button>
+				<button type="button" onClick="taquero.auto()">Automate</button>
+				<button type="button" onClick="taco_stand.auto()">Automate</button>
+				<button type="button" onClick="taco_truck.auto()">Automate</button>
+				<button type="button" onClick="restaurant.auto()">Automate</button>
+			</div>
+		</div>
+
+	</body>
+</html>

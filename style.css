@@ -1,0 +1,56 @@
+h1{
+	text-align: center;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 100px 300px 200px 1fr;
+	grid-template-areas:
+	". plus_one events auto_click .";
+}
+
+.events{
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+	"button";
+	grid-area: events;
+}
+.auto_click{
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+	"button";
+	grid-area: auto_click;
+}
+.plus_one{
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+	"button";
+	grid-area: plus_one;
+}
+button{
+	border: none;
+	margin: 5px;
+	padding: 30px;
+
+}
+
+.events button{
+	background-color: #376E82;
+	border: none;
+	margin: 5px;
+	padding: 30px;
+}
+
+.plus_one button{
+	background-color: #E8F577;
+	border: none;
+	margin: 5px;
+	padding: 30px;
+
+}
+
+button:hover{
+	background-color: #EB9730 
+}
