@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html> 
 	<head>
-		<script src="clicker.js"></script> 
+		
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
@@ -15,11 +15,11 @@
 				<button type="button" onClick="restaurant.addOne()">+1</button>
 			</div>
 			<div class="events">
-				<button type="button" onClick="taco.clicked()">Taco</button>
-				<button type="button" onClick="taquero.clicked()">Taquero</button>
-				<button type="button" onClick="taco_stand.clicked()">Taco Stand</button>
-				<button type="button" onClick="taco_truck.clicked()">Taco Truck</button>
-				<button type="button" onClick="restaurant.clicked()">Restaurant</button>
+				<button type="button" onClick="taco.clicked()" id="Taco"></button>
+				<button type="button" onClick="taquero.clicked()" id="Taquero"></button>
+				<button type="button" onClick="taco_stand.clicked()" id="Taco Stand"></button>
+				<button type="button" onClick="taco_truck.clicked()" id="Taco Truck"></button>
+				<button type="button" onClick="restaurant.clicked()" id="Restaurant"></button>
 			</div>
 			<div class="auto_click">
 				<button type="button" onClick="taco.auto()">Automate</button>
@@ -29,6 +29,6 @@
 				<button type="button" onClick="restaurant.auto()">Automate</button>
 			</div>
 		</div>
-
+		<script src="clicker.js"></script> 
 	</body>
 </html>
